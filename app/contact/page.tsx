@@ -21,12 +21,12 @@ export default function ContactPage() {
       <Header />
       <main>
         {/* Hero */}
-        <section className="bg-navy-900 py-16">
+        <section className="py-16" style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 55%, #bae6fd 100%)" }}>
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl lg:text-5xl font-black text-white mb-4">
+            <h1 className="text-4xl lg:text-5xl font-black text-navy-900 mb-4">
               Get Your Free Quote
             </h1>
-            <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
+            <p className="text-gray-600 text-lg leading-relaxed max-w-2xl mx-auto">
               We'll call you back fast with a real, guaranteed price — no in-home visit
               required. Just send us your info and we'll take it from there.
             </p>
@@ -34,7 +34,7 @@ export default function ContactPage() {
         </section>
 
         {/* Content */}
-        <section className="bg-[#F7F9FC] py-16 lg:py-24">
+        <section className="bg-sky-50 py-16 lg:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
 

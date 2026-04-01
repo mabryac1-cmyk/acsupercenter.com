@@ -5,7 +5,7 @@ const PHONE_HREF = "tel:8322213688";
 
 export default function Footer() {
   return (
-    <footer className="bg-navy-900 text-gray-400">
+    <footer className="bg-sky-900 text-gray-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-navy-700 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <div className="border-t border-sky-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>
             © {new Date().getFullYear()} AC SuperCenter. All rights reserved. |{" "}
             <span className="text-gray-400">License #TACLB12058E</span> |{" "}

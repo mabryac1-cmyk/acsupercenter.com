@@ -32,7 +32,7 @@ function Starburst({ label }: { label: string }) {
 
 export default function PricingSection() {
   return (
-    <section id="pricing" className="bg-[#F7F9FC] py-20 lg:py-28">
+    <section id="pricing" className="bg-sky-50 py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}

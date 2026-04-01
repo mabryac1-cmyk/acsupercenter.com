@@ -53,17 +53,17 @@ export default async function CityPage({
       <Header />
       <main>
         {/* Hero */}
-        <section className="bg-navy-900 py-16 lg:py-24">
+        <section className="py-16 lg:py-24" style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 55%, #bae6fd 100%)" }}>
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="inline-flex items-center gap-2 bg-brand-red/10 border border-brand-red/20 text-brand-red px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
               Serving {city.name}, TX
             </div>
-            <h1 className="text-4xl lg:text-5xl font-black text-white mb-6 text-balance">
+            <h1 className="text-4xl lg:text-5xl font-black text-navy-900 mb-6 text-balance">
               Trane AC Installation in{" "}
               <span className="text-brand-red">{city.name}, TX</span> at the
               Guaranteed Lowest Price
             </h1>
-            <p className="text-gray-400 text-lg leading-relaxed max-w-3xl mb-8">
+            <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mb-8">
               AC SuperCenter serves {city.name} — {city.description} — with
               guaranteed lowest Trane AC and heating system installations. As an
               authorized Trane dealer with nearly 40 years of Houston HVAC experience,
@@ -81,7 +81,7 @@ export default async function CityPage({
               </a>
               <Link
                 href="/#pricing"
-                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-300 text-navy-900 font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-sm"
               >
                 See Our Prices
               </Link>
@@ -90,7 +90,7 @@ export default async function CityPage({
         </section>
 
         {/* Why AC SuperCenter in [city] */}
-        <section className="bg-[#F7F9FC] py-16 lg:py-24">
+        <section className="bg-sky-50 py-16 lg:py-24">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div>

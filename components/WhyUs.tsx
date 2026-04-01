@@ -63,7 +63,7 @@ const reasons = [
 
 export default function WhyUs() {
   return (
-    <section id="why-us" className="bg-[#F7F9FC] py-20 lg:py-28">
+    <section id="why-us" className="bg-sky-50 py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -95,7 +95,7 @@ export default function WhyUs() {
         </div>
 
         {/* Novel way callout */}
-        <div className="mt-16 bg-navy-900 rounded-3xl p-10 lg:p-14 text-center">
+        <div className="mt-16 bg-sky-700 rounded-3xl p-10 lg:p-14 text-center">
           <h3 className="text-3xl lg:text-4xl font-black text-white mb-5 max-w-3xl mx-auto text-balance">
             Introducing a New Way to Replace Your Home AC System
           </h3>

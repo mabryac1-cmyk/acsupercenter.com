@@ -5,24 +5,11 @@ const PHONE_HREF = "tel:8322213688";
 
 export default function Hero() {
   return (
-    <section className="relative bg-navy-900 overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 25% 50%, #C8102E 0%, transparent 50%), radial-gradient(circle at 75% 20%, #1B3A6B 0%, transparent 50%)",
-          }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage:
-              "linear-gradient(45deg, transparent 45%, rgba(200,16,46,0.08) 50%, transparent 55%)",
-            backgroundSize: "60px 60px",
-          }}
-        />
+    <section className="relative overflow-hidden" style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 55%, #bae6fd 100%)" }}>
+      {/* Subtle background accent circles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute -top-24 -right-24 w-96 h-96 rounded-full bg-sky-200/40" />
+        <div className="absolute bottom-0 -left-16 w-72 h-72 rounded-full bg-sky-300/20" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
@@ -37,21 +24,21 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 text-balance">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 leading-tight mb-6 text-balance">
             Stop Overpaying for a{" "}
             <span className="text-brand-red">New Trane</span>{" "}
             AC System.
           </h1>
 
           {/* Subheadline */}
-          <p className="text-xl sm:text-2xl font-bold text-gray-200 mb-6">
+          <p className="text-xl sm:text-2xl font-bold text-navy-700 mb-6">
             Guaranteed Lowest Prices in Greater Houston — Period.
           </p>
 
           {/* Body */}
-          <p className="text-gray-400 text-lg leading-relaxed max-w-3xl mb-10">
+          <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mb-10">
             At ACSuperCenter.com, we've completely reimagined how you replace your
-            home's AC system. <strong className="text-gray-200">No salespeople. No in-home sales visits. No pressure.
+            home's AC system. <strong className="text-navy-800">No salespeople. No in-home sales visits. No pressure.
             No runaround.</strong> Just real prices, a quick phone call, and a professional
             Trane installation — saving you potentially thousands over traditional
             HVAC companies. Our dramatically reduced overhead means we pass the
@@ -71,7 +58,7 @@ export default function Hero() {
             </Link>
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold px-8 py-4 rounded-xl text-lg transition-colors"
+              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-50 border border-gray-300 text-navy-900 font-bold px-8 py-4 rounded-xl text-lg transition-colors shadow-sm"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -91,10 +78,10 @@ export default function Hero() {
             ].map((badge) => (
               <div
                 key={badge.label}
-                className="flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-2 rounded-lg"
+                className="flex items-center gap-2 bg-white/80 border border-sky-200 px-3 py-2 rounded-lg shadow-sm"
               >
                 <span className="text-brand-red font-bold text-sm">{badge.icon}</span>
-                <span className="text-gray-300 text-sm font-medium">{badge.label}</span>
+                <span className="text-navy-700 text-sm font-medium">{badge.label}</span>
               </div>
             ))}
           </div>
@@ -110,7 +97,7 @@ export default function Hero() {
           className="w-full"
           preserveAspectRatio="none"
         >
-          <path d="M0 60L1440 60L1440 0C1200 40 960 60 720 60C480 60 240 40 0 0L0 60Z" fill="#F7F9FC" />
+          <path d="M0 60L1440 60L1440 0C1200 40 960 60 720 60C480 60 240 40 0 0L0 60Z" fill="#ffffff" />
         </svg>
       </div>
     </section>

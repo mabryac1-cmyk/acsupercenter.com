@@ -10,14 +10,14 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 bg-navy-900 shadow-lg">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
 
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <div className="flex flex-col leading-none">
-              <span className="text-white font-black text-xl lg:text-2xl tracking-tight">
+              <span className="text-navy-600 font-black text-xl lg:text-2xl tracking-tight">
                 AC <span className="text-brand-red">Super</span>Center
               </span>
               <span className="text-gray-400 text-xs font-medium tracking-widest uppercase">
@@ -28,19 +28,19 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
-            <Link href="/#pricing" className="text-gray-300 hover:text-white font-medium transition-colors">
+            <Link href="/#pricing" className="text-gray-600 hover:text-navy-600 font-medium transition-colors">
               Pricing
             </Link>
-            <Link href="/#how-it-works" className="text-gray-300 hover:text-white font-medium transition-colors">
+            <Link href="/#how-it-works" className="text-gray-600 hover:text-navy-600 font-medium transition-colors">
               How It Works
             </Link>
-            <Link href="/#trane-systems" className="text-gray-300 hover:text-white font-medium transition-colors">
+            <Link href="/#trane-systems" className="text-gray-600 hover:text-navy-600 font-medium transition-colors">
               Trane Systems
             </Link>
-            <Link href="/#service-areas" className="text-gray-300 hover:text-white font-medium transition-colors">
+            <Link href="/#service-areas" className="text-gray-600 hover:text-navy-600 font-medium transition-colors">
               Service Areas
             </Link>
-            <Link href="/contact" className="text-gray-300 hover:text-white font-medium transition-colors">
+            <Link href="/contact" className="text-gray-600 hover:text-navy-600 font-medium transition-colors">
               Contact
             </Link>
           </nav>
@@ -71,7 +71,7 @@ export default function Header() {
             </a>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="text-white p-2"
+              className="text-gray-700 p-2"
               aria-label="Toggle menu"
             >
               {menuOpen ? (
@@ -90,21 +90,21 @@ export default function Header() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="lg:hidden bg-navy-800 border-t border-navy-700 px-4 py-4">
+        <div className="lg:hidden bg-gray-50 border-t border-gray-200 px-4 py-4">
           <nav className="flex flex-col gap-4">
-            <Link href="/#pricing" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white font-medium py-2 border-b border-navy-700">
+            <Link href="/#pricing" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-navy-600 font-medium py-2 border-b border-gray-200">
               Pricing
             </Link>
-            <Link href="/#how-it-works" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white font-medium py-2 border-b border-navy-700">
+            <Link href="/#how-it-works" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-navy-600 font-medium py-2 border-b border-gray-200">
               How It Works
             </Link>
-            <Link href="/#trane-systems" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white font-medium py-2 border-b border-navy-700">
+            <Link href="/#trane-systems" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-navy-600 font-medium py-2 border-b border-gray-200">
               Trane Systems
             </Link>
-            <Link href="/#service-areas" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white font-medium py-2 border-b border-navy-700">
+            <Link href="/#service-areas" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-navy-600 font-medium py-2 border-b border-gray-200">
               Service Areas
             </Link>
-            <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-gray-300 hover:text-white font-medium py-2">
+            <Link href="/contact" onClick={() => setMenuOpen(false)} className="text-gray-600 hover:text-navy-600 font-medium py-2">
               Contact
             </Link>
           </nav>

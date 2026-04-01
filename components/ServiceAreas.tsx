@@ -3,7 +3,7 @@ import { cities } from "@/lib/cities";
 
 export default function ServiceAreas() {
   return (
-    <section id="service-areas" className="bg-navy-900 py-20 lg:py-28">
+    <section id="service-areas" className="bg-sky-700 py-20 lg:py-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -27,7 +27,7 @@ export default function ServiceAreas() {
             <Link
               key={city.slug}
               href={`/areas/${city.slug}`}
-              className="group bg-navy-800 hover:bg-brand-red border border-navy-700 hover:border-brand-red text-gray-300 hover:text-white px-3 py-3 rounded-xl text-sm font-medium text-center transition-all duration-200"
+              className="group bg-white/20 hover:bg-brand-red border border-white/30 hover:border-brand-red text-white hover:text-white px-3 py-3 rounded-xl text-sm font-medium text-center transition-all duration-200"
             >
               {city.name}
               <div className="text-xs text-gray-500 group-hover:text-red-200 mt-0.5">
@@ -38,7 +38,7 @@ export default function ServiceAreas() {
         </div>
 
         {/* Houston map callout */}
-        <div className="bg-navy-800 border border-navy-700 rounded-2xl p-8 lg:p-10 flex flex-col lg:flex-row items-center gap-8">
+        <div className="bg-white/15 border border-white/20 rounded-2xl p-8 lg:p-10 flex flex-col lg:flex-row items-center gap-8">
           <div className="flex items-center justify-center w-20 h-20 rounded-2xl bg-brand-red/10 border border-brand-red/20 shrink-0">
             <svg className="w-10 h-10 text-brand-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
