@@ -78,10 +78,11 @@ export default function PricingSection() {
               {/* Card body */}
               <div className="px-6 pb-8 flex flex-col flex-1">
                 <div className="text-center mb-6">
-                  <h3 className="text-2xl font-black text-navy-900 mb-1">
+                  <h3 className="text-2xl font-black text-navy-900 mb-0.5">
                     {system.tier} Series
                   </h3>
-                  <p className="text-gray-500 text-sm mb-3">{system.tagline}</p>
+                  <p className="text-brand-red text-sm font-semibold mb-1">{system.subtitle}</p>
+                  <p className="text-gray-500 text-xs mb-3">{system.tagline}</p>
                   <div className="inline-block bg-navy-50 text-navy-600 text-xs font-bold px-3 py-1 rounded-full border border-navy-100">
                     {system.seer}
                   </div>
@@ -92,8 +93,11 @@ export default function PricingSection() {
                   <div className="text-gray-400 text-xs font-semibold uppercase tracking-wider mb-1">
                     Fully Installed Price
                   </div>
-                  <div className="text-3xl font-black text-white mb-1">
+                  <div className="text-4xl font-black text-white mb-1">
                     {system.price}
+                  </div>
+                  <div className="text-sky-300 text-xs font-semibold mb-1">
+                    {system.priceNote}
                   </div>
                   <div className="text-brand-red text-xs font-semibold">
                     Guaranteed Lowest in Greater Houston
