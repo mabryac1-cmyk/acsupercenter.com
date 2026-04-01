@@ -140,9 +140,36 @@ export default function PricingSection() {
             </svg>
             <div className="text-left">
               <div className="font-black text-lg">Lowest Price Guarantee</div>
-              <div className="text-gray-400 text-sm">Find a lower installed price on the same Trane system? We'll beat it.</div>
+              <div className="text-gray-400 text-sm">Find a lower installed price on the same Trane® system? We'll beat it.</div>
             </div>
           </div>
+        </div>
+
+        {/* Accessories note */}
+        <div className="mt-8 bg-blue-50 border border-blue-100 rounded-2xl px-8 py-5 text-center max-w-2xl mx-auto">
+          <p className="text-blue-800 text-sm leading-relaxed">
+            <span className="font-bold">Looking for accessories or upgrades?</span>{" "}
+            We're happy to quote air purifiers, UV lights, smart thermostats, upgraded filtration,
+            and other add-ons upon request. Just ask!
+          </p>
+          <a
+            href={PHONE_HREF}
+            className="inline-block mt-3 text-brand-red font-semibold text-sm hover:underline"
+          >
+            Call {PHONE} to discuss accessories →
+          </a>
+        </div>
+
+        {/* Installation disclosure */}
+        <div className="mt-8 border-t border-gray-200 pt-6 max-w-4xl mx-auto">
+          <p className="text-gray-400 text-xs leading-relaxed text-center">
+            <span className="font-semibold text-gray-500">Installation Disclosure:</span>{" "}
+            New equipment shall be attached to existing plenum, ductwork, refrigerant lines, electrical,
+            gas lines, drain lines, and flue pipe as applicable. All new installations also include a
+            basic digital thermostat, new emergency drain pan, and safety float switch, as applicable.
+            Any additional items may incur an additional charge. Any accessories requested shall be
+            quoted as an additional charge. Trane® is a registered trademark of Trane Technologies.
+          </p>
         </div>
       </div>
     </section>

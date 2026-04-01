@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 leading-tight mb-6 text-balance">
             Stop Overpaying for a{" "}
-            <span className="text-brand-red">New Trane</span>{" "}
+            <span className="text-brand-red">New Trane®</span>{" "}
             AC System.
           </h1>
 
