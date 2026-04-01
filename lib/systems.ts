@@ -20,9 +20,9 @@ export const systems: TraneSystem[] = [
     priceNote: "All Sizes — Fully Installed",
     badge: "Best Value",
     highlights: [
+      "Complete system — AC unit + heater included",
       "Entry-level Trane quality & reliability",
       "Significant upgrade over worn-out systems",
-      "Single-stage cooling & heating",
       "Full manufacturer warranty",
       "Professional installation included",
     ],
@@ -37,6 +37,7 @@ export const systems: TraneSystem[] = [
     badge: "Most Popular",
     popular: true,
     highlights: [
+      "Complete system — AC unit + heater included",
       "Higher efficiency = lower monthly bills",
       "Legendary Trane Quality & Endurance",
       "Quieter operation than standard systems",
@@ -53,6 +54,7 @@ export const systems: TraneSystem[] = [
     priceNote: "All Sizes — Fully Installed",
     badge: "Top of the Line",
     highlights: [
+      "Complete system — AC unit + heater included",
       "Variable-speed technology for maximum comfort",
       "Whisper-quiet operation",
       "Highest energy savings — lowest utility bills",

@@ -36,7 +36,7 @@ export default function PricingSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-10">
           <div className="inline-flex items-center gap-2 bg-brand-red/10 text-brand-red px-4 py-1.5 rounded-full text-sm font-semibold mb-4">
             Real Prices. No Runaround.
           </div>
@@ -45,11 +45,50 @@ export default function PricingSection() {
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
             We list our prices because we're confident they're the lowest in Houston.
-            No hidden fees. No bait-and-switch. <strong>Every price includes professional
-            installation</strong> by our licensed team.
+            No hidden fees. No bait-and-switch. No surprises.
           </p>
-          <div className="mt-4 inline-block bg-yellow-50 border border-yellow-200 text-yellow-800 px-4 py-2 rounded-lg text-sm font-medium">
-            Prices shown are fully installed — parts + labor. Nothing extra.
+        </div>
+
+        {/* Complete system callout */}
+        <div className="bg-white border-2 border-brand-red/20 rounded-2xl p-6 lg:p-8 mb-12 max-w-4xl mx-auto">
+          <div className="text-center mb-6">
+            <div className="inline-flex items-center gap-2 bg-brand-red text-white px-5 py-2 rounded-full text-sm font-bold mb-3">
+              ⭐ What Every Price Includes
+            </div>
+            <h3 className="text-xl font-black text-navy-900">
+              Complete System — Air Conditioning <span className="text-brand-red">+</span> Heater Included
+            </h3>
+            <p className="text-gray-600 text-sm mt-2 max-w-2xl mx-auto">
+              Every price listed is for a <strong>complete replacement system</strong> — both the
+              outdoor AC/cooling unit <em>and</em> the indoor heater (gas furnace or electric air handler).
+              Full year-round comfort at one guaranteed price. No surprises. No add-ons.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
+            {[
+              "New Outdoor AC Unit",
+              "New Gas Furnace or Electric Air Handler",
+              "Professional Installation",
+              "Basic Digital Thermostat",
+              "Emergency Drain Pan",
+              "Safety Float Switch",
+            ].map((item) => (
+              <div key={item} className="bg-sky-50 rounded-xl px-3 py-3 text-center">
+                <div className="text-brand-red font-black text-lg mb-1">✓</div>
+                <div className="text-navy-900 text-xs font-semibold leading-snug">{item}</div>
+              </div>
+            ))}
+          </div>
+          <div className="border-t border-gray-100 pt-5 flex flex-col sm:flex-row gap-3 justify-center text-sm text-gray-600">
+            <div className="flex items-center gap-2">
+              <span className="text-sky-600 font-bold">→</span>
+              <span><strong>Prefer a heat pump?</strong> We offer those at an upcharge — call for a custom quote.</span>
+            </div>
+            <div className="hidden sm:block text-gray-300">|</div>
+            <div className="flex items-center gap-2">
+              <span className="text-sky-600 font-bold">→</span>
+              <span><strong>Need cooling only?</strong> We can quote a reduced-price AC-only system too.</span>
+            </div>
           </div>
         </div>
 
@@ -91,7 +130,7 @@ export default function PricingSection() {
                 {/* Price */}
                 <div className="text-center mb-6 bg-navy-900 rounded-xl py-5 px-4">
                   <div className="text-gray-400 text-xs font-semibold uppercase tracking-wider mb-1">
-                    Fully Installed Price
+                    Complete System — Fully Installed
                   </div>
                   <div className="text-4xl font-black text-white mb-1">
                     {system.price}
