@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     const destination = process.env.CONTACT_DESTINATION_EMAIL ?? "office@mabryac.com";
     const fromEmail = process.env.RESEND_FROM_EMAIL ?? "onboarding@resend.dev";
 
-    await resend.emails.send({
+    const { data, error: resendError } = await resend.emails.send({
       from: `AC SuperCenter <${fromEmail}>`,
       to: destination,
       replyTo: email,
@@ -71,6 +71,12 @@ export async function POST(request: Request) {
       `,
     });
 
+    if (resendError) {
+      console.error("Resend error:", resendError);
+      return NextResponse.json({ error: resendError.message }, { status: 500 });
+    }
+
+    console.log("Email sent successfully:", data);
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Contact form error:", error);
