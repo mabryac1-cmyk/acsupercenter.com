@@ -74,7 +74,7 @@ export default function TraneProducts() {
 
               {/* Models */}
               <div className="mb-5">
-                <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">
+                <div className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-2">
                   Featured Model
                 </div>
                 <div className="flex flex-wrap gap-2">
@@ -91,7 +91,7 @@ export default function TraneProducts() {
 
               {/* Best for */}
               <div className="bg-white/70 rounded-xl px-4 py-3 border border-white">
-                <div className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">
+                <div className="text-xs font-bold text-gray-600 uppercase tracking-wide mb-1">
                   Best For
                 </div>
                 <p className="text-gray-700 text-sm">{tier.bestFor}</p>
@@ -102,10 +102,10 @@ export default function TraneProducts() {
 
         {/* Footer notes */}
         <div className="mt-12 text-center">
-          <p className="text-gray-500 mb-2 text-sm">
+          <p className="text-gray-700 mb-2 text-sm">
             All systems include professional installation, startup, and testing.
           </p>
-          <p className="text-gray-500 text-sm mb-8">
+          <p className="text-gray-700 text-sm mb-8">
             Not sure which system is right for you?{" "}
             <a href="tel:8322213688" className="text-brand-red font-semibold hover:underline">
               Call us — we'll help you decide.
@@ -114,8 +114,8 @@ export default function TraneProducts() {
 
           {/* Pricing & models disclaimer */}
           <div className="border-t border-gray-100 pt-6 max-w-3xl mx-auto">
-            <p className="text-gray-400 text-xs leading-relaxed">
-              <span className="font-semibold text-gray-500">Please Note:</span>{" "}
+            <p className="text-gray-600 text-xs leading-relaxed">
+              <span className="font-semibold text-gray-700">Please Note:</span>{" "}
               Models, prices, and availability are subject to change without notice.
               Advertised pricing may only be locked in on the date your installation is
               scheduled. Trane® manufactures a wide range of additional models beyond

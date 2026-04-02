@@ -99,7 +99,7 @@ export default function WhyUs() {
           <h3 className="text-3xl lg:text-4xl font-black text-white mb-5 max-w-3xl mx-auto text-balance">
             Introducing a New Way to Replace Your Home AC System
           </h3>
-          <p className="text-gray-400 text-lg leading-relaxed max-w-2xl mx-auto">
+          <p className="text-sky-100 text-lg leading-relaxed max-w-2xl mx-auto">
             At ACSuperCenter.com, we offer a novel and entirely new way to buy and
             replace your old, worn-out AC and heating system — one that will save you
             potentially thousands of dollars compared to traditional AC &amp; heating

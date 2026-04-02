@@ -13,7 +13,7 @@ export default function ServiceAreas() {
           <h2 className="text-4xl lg:text-5xl font-black text-white mb-5">
             We Serve All of Greater Houston
           </h2>
-          <p className="text-gray-400 text-lg leading-relaxed">
+          <p className="text-sky-100 text-lg leading-relaxed">
             As an install-only company, we're able to serve the entire Houston
             metropolitan area — from The Woodlands to Sugar Land, Katy to Baytown,
             and everywhere in between. If you're in the Greater Houston area, we
@@ -30,7 +30,7 @@ export default function ServiceAreas() {
               className="group bg-white/20 hover:bg-brand-red border border-white/30 hover:border-brand-red text-white hover:text-white px-3 py-3 rounded-xl text-sm font-medium text-center transition-all duration-200"
             >
               {city.name}
-              <div className="text-xs text-gray-500 group-hover:text-red-200 mt-0.5">
+              <div className="text-xs text-sky-200 group-hover:text-red-200 mt-0.5">
                 {city.county} Co.
               </div>
             </Link>
@@ -49,7 +49,7 @@ export default function ServiceAreas() {
             <h3 className="text-xl font-bold text-white mb-2">
               Don't See Your City Listed?
             </h3>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-sky-100 leading-relaxed">
               Houston is the 4th largest city in the United States and we serve the
               entire metro area. If you're in the Greater Houston area and don't see
               your specific city or neighborhood listed, just give us a call. There's

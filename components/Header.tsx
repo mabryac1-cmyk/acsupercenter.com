@@ -20,7 +20,7 @@ export default function Header() {
               <span className="text-navy-600 font-black text-xl lg:text-2xl tracking-tight">
                 AC <span className="text-brand-red">Super</span>Center
               </span>
-              <span className="text-gray-400 text-xs font-medium tracking-widest uppercase">
+              <span className="text-gray-600 text-xs font-medium tracking-widest uppercase">
                 acsupercenter.com
               </span>
             </div>

@@ -121,7 +121,7 @@ export default function PricingSection() {
                     {system.tier} Series
                   </h3>
                   <p className="text-brand-red text-sm font-semibold mb-1">{system.subtitle}</p>
-                  <p className="text-gray-500 text-xs mb-3">{system.tagline}</p>
+                  <p className="text-gray-600 text-xs mb-3">{system.tagline}</p>
                   <div className="inline-block bg-navy-50 text-navy-600 text-xs font-bold px-3 py-1 rounded-full border border-navy-100">
                     {system.seer}
                   </div>
@@ -129,7 +129,7 @@ export default function PricingSection() {
 
                 {/* Price */}
                 <div className="text-center mb-6 bg-navy-900 rounded-xl py-5 px-4">
-                  <div className="text-gray-400 text-xs font-semibold uppercase tracking-wider mb-1">
+                  <div className="text-sky-200 text-xs font-semibold uppercase tracking-wider mb-1">
                     Complete System — Fully Installed
                   </div>
                   <div className="text-4xl font-black text-white mb-1">
@@ -179,7 +179,7 @@ export default function PricingSection() {
             </svg>
             <div className="text-left">
               <div className="font-black text-lg">Lowest Price Guarantee</div>
-              <div className="text-gray-400 text-sm">Find a lower installed price on the same Trane® system? We'll beat it.</div>
+              <div className="text-sky-100 text-sm">Find a lower installed price on the same Trane® system? We'll beat it.</div>
             </div>
           </div>
         </div>
@@ -201,8 +201,8 @@ export default function PricingSection() {
 
         {/* Installation disclosure */}
         <div className="mt-8 border-t border-gray-200 pt-6 max-w-4xl mx-auto">
-          <p className="text-gray-400 text-xs leading-relaxed text-center">
-            <span className="font-semibold text-gray-500">Installation Disclosure:</span>{" "}
+          <p className="text-gray-600 text-xs leading-relaxed text-center">
+            <span className="font-semibold text-gray-700">Installation Disclosure:</span>{" "}
             New equipment shall be attached to existing plenum, ductwork, refrigerant lines, electrical,
             gas lines, drain lines, and flue pipe as applicable. All new installations also include a
             basic digital thermostat, new emergency drain pan, and safety float switch, as applicable.

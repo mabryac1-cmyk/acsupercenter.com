@@ -5,7 +5,7 @@ const PHONE_HREF = "tel:8322213688";
 
 export default function Footer() {
   return (
-    <footer className="bg-sky-900 text-gray-400">
+    <footer className="bg-sky-900 text-sky-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -15,11 +15,11 @@ export default function Footer() {
               <span className="text-white font-black text-2xl tracking-tight">
                 AC <span className="text-brand-red">Super</span>Center
               </span>
-              <span className="text-gray-500 text-xs font-medium tracking-widest uppercase mt-0.5">
+              <span className="text-sky-300 text-xs font-medium tracking-widest uppercase mt-0.5">
                 acsupercenter.com
               </span>
             </div>
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-sky-100 text-sm leading-relaxed max-w-sm">
               Introducing a new way to replace and purchase a new air conditioning
               system for your home — and save potentially thousands in the process.
               Authorized Trane dealer serving all of Greater Houston.
@@ -64,17 +64,17 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-sky-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
+        <div className="border-t border-sky-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-sky-200">
           <p>
             © {new Date().getFullYear()} AC SuperCenter. All rights reserved. |{" "}
-            <span className="text-gray-400">License #TACLB12058E</span> |{" "}
-            <span className="text-gray-400">Licensed &amp; Insured</span>
+            <span className="text-sky-200">License #TACLB12058E</span> |{" "}
+            <span className="text-sky-200">Licensed &amp; Insured</span>
           </p>
           <p className="text-center md:text-right">
             Authorized Trane Dealer | Serving Greater Houston, TX
           </p>
         </div>
-        <div className="mt-6 pt-6 border-t border-sky-800 text-xs text-gray-600 text-center space-y-1">
+        <div className="mt-6 pt-6 border-t border-sky-800 text-xs text-sky-300 text-center space-y-1">
           <p>acsupercenter.com is a marketing brand operated by Mabry&apos;s Air Conditioning &amp; Heating, Inc.</p>
           <p>
             Regulated by the Texas Department of Licensing and Regulation, P.O. Box 12157, Austin, Texas 78711 |{" "}

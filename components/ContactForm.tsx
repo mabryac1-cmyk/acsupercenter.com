@@ -129,7 +129,7 @@ export default function ContactForm() {
       <div>
         <label htmlFor="systemInfo" className="block text-sm font-semibold text-gray-700 mb-1.5">
           Existing System Info{" "}
-          <span className="font-normal text-gray-400">(Model / Serial # from your unit label — optional)</span>
+          <span className="font-normal text-gray-500">(Model / Serial # from your unit label — optional)</span>
         </label>
         <input
           id="systemInfo"
@@ -140,7 +140,7 @@ export default function ContactForm() {
           placeholder="e.g. Trane 4TTR4036L1000AA / Serial: 20123D00001"
           className="w-full px-4 py-3 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-red focus:border-transparent text-sm"
         />
-        <p className="mt-1.5 text-xs text-gray-500">
+        <p className="mt-1.5 text-xs text-gray-600">
           Can also text a photo of your unit label to{" "}
           <a href={PHONE_HREF} className="text-brand-red font-medium hover:underline">
             {PHONE}
@@ -179,7 +179,7 @@ export default function ContactForm() {
         {status === "loading" ? "Sending..." : "Get My Free Quote"}
       </button>
 
-      <p className="text-center text-xs text-gray-500">
+      <p className="text-center text-xs text-gray-600">
         We typically respond within a few hours during business hours. No spam, ever.
       </p>
     </form>

@@ -92,7 +92,7 @@ export default function HowItWorks() {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <p className="text-gray-500 mb-4 text-lg">Ready to get started? It couldn't be easier.</p>
+          <p className="text-gray-700 mb-4 text-lg">Ready to get started? It couldn't be easier.</p>
           <a
             href={PHONE_HREF}
             className="inline-flex items-center gap-2 bg-brand-red hover:bg-brand-red-dark text-white font-bold px-10 py-4 rounded-xl text-lg transition-colors shadow-lg shadow-brand-red/25"
