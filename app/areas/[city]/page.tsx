@@ -23,15 +23,23 @@ export async function generateMetadata({
   if (!city) return {};
 
   return {
-    title: `Trane AC Installation ${city.name} TX | Guaranteed Lowest Prices`,
-    description: `AC SuperCenter offers guaranteed lowest Trane AC and heating system installation prices in ${city.name}, TX. Authorized Trane dealer. No in-home visit needed. Call 832-221-3688 for a free quote.`,
+    title: `Trane AC Installation ${city.name} TX | Guaranteed Lowest Price`,
+    description: `AC SuperCenter installs new Trane AC and heating systems in ${city.name}, TX at the guaranteed lowest price. Authorized Trane dealer. No in-home sales visit needed. Complete system fully installed. Call 832-221-3688 for a free quote.`,
     keywords: [
       `Trane AC installation ${city.name} TX`,
+      `AC replacement ${city.name} TX`,
       `new AC system ${city.name}`,
       `replace AC system ${city.name} TX`,
-      `Trane dealer ${city.name}`,
+      `air conditioning replacement ${city.name}`,
+      `Trane dealer ${city.name} TX`,
       `HVAC installation ${city.name} TX`,
+      `HVAC replacement ${city.name} TX`,
       `lowest price AC ${city.name}`,
+      `air conditioning installation cost ${city.name}`,
+      `new heating system ${city.name} TX`,
+      `furnace replacement ${city.name} TX`,
+      `air conditioner replacement price ${city.name}`,
+      `Trane system price ${city.name}`,
     ],
     alternates: {
       canonical: `https://www.acsupercenter.com/areas/${slug}`,
@@ -85,6 +93,26 @@ export default async function CityPage({
               >
                 See Our Prices
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Local geo content */}
+        <section className="bg-white py-12 border-b border-gray-100">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-black text-navy-900 mb-3">
+              Serving Homeowners Throughout {city.name}
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-6">{city.geoNote}</p>
+            <div className="flex flex-wrap gap-2">
+              {city.neighborhoods.map((n) => (
+                <span
+                  key={n}
+                  className="bg-sky-50 border border-sky-200 text-sky-800 text-sm font-medium px-3 py-1.5 rounded-full"
+                >
+                  {n}
+                </span>
+              ))}
             </div>
           </div>
         </section>
