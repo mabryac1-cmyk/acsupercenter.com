@@ -74,6 +74,16 @@ export default function Footer() {
             Authorized Trane Dealer | Serving Greater Houston, TX
           </p>
         </div>
+        <div className="mt-6 pt-6 border-t border-sky-800 text-xs text-gray-600 text-center space-y-1">
+          <p>acsupercenter.com is a marketing brand operated by Mabry&apos;s Air Conditioning &amp; Heating, Inc.</p>
+          <p>
+            Regulated by the Texas Department of Licensing and Regulation, P.O. Box 12157, Austin, Texas 78711 |{" "}
+            1-800-803-9202 | 512-463-6599 |{" "}
+            <a href="https://www.tdlr.texas.gov" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">
+              www.tdlr.texas.gov
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
