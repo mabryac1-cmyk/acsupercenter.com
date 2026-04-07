@@ -186,7 +186,12 @@ export default function PricingSection() {
 
         {/* Financing + Payment banner */}
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
-          <div className="flex items-center gap-4 bg-emerald-50 border border-emerald-200 rounded-2xl px-6 py-4">
+          <a
+            href="https://apply.svcfin.com/home/dealerAuthentication?id=400303655&key=1742219857"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 bg-emerald-50 border border-emerald-200 rounded-2xl px-6 py-4 hover:bg-emerald-100 hover:border-emerald-300 transition-colors group"
+          >
             <div className="flex items-center justify-center w-12 h-12 bg-emerald-600 rounded-xl shrink-0">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -195,8 +200,9 @@ export default function PricingSection() {
             <div>
               <div className="font-black text-emerald-900 text-sm leading-snug">100% Financing Available*</div>
               <div className="text-emerald-700 text-xs mt-0.5">With approved credit</div>
+              <div className="text-emerald-600 text-xs font-semibold mt-1 group-hover:underline">Apply Now →</div>
             </div>
-          </div>
+          </a>
           <div className="flex items-center gap-4 bg-sky-50 border border-sky-200 rounded-2xl px-6 py-4">
             <div className="flex items-center justify-center w-12 h-12 bg-sky-600 rounded-xl shrink-0">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
