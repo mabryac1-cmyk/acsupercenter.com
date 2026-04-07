@@ -25,14 +25,14 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 leading-tight mb-6 text-balance">
-            Stop Overpaying for a{" "}
-            <span className="text-brand-red">New Trane®</span>{" "}
-            AC System.
+            Trane® AC & Heating System{" "}
+            <span className="text-brand-red">Installation in Greater Houston</span>{" "}
+            — Guaranteed Lowest Price.
           </h1>
 
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl font-bold text-navy-700 mb-6">
-            Guaranteed Lowest Prices in Greater Houston — Period.
+            Stop Overpaying. No Salespeople. No Runaround. Just Results.
           </p>
 
           {/* Body */}

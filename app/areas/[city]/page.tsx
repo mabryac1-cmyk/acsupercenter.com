@@ -56,8 +56,37 @@ export default async function CityPage({
   const city = getCityBySlug(slug);
   if (!city) notFound();
 
+  const citySchema = {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "AC SuperCenter",
+    "url": `https://www.acsupercenter.com/areas/${slug}`,
+    "telephone": "+18322213688",
+    "description": `AC SuperCenter installs new Trane AC and heating systems in ${city.name}, TX at the guaranteed lowest price. Authorized Trane dealer. Complete system fully installed.`,
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "4848 W Fork Blvd",
+      "addressLocality": "Conroe",
+      "addressRegion": "TX",
+      "postalCode": "77304",
+      "addressCountry": "US"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": city.name,
+      "addressRegion": "TX"
+    },
+    "hasCredential": "TACLB12058E",
+    "brand": { "@type": "Brand", "name": "Trane" },
+    "priceRange": "$$",
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(citySchema) }}
+      />
       <Header />
       <main>
         {/* Hero */}

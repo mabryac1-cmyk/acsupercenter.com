@@ -3,11 +3,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "AC SuperCenter | Guaranteed Lowest Trane Prices in Greater Houston",
+    default: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
     template: "%s | AC SuperCenter",
   },
   description:
-    "Stop overpaying for a new AC system. AC SuperCenter offers guaranteed lowest Trane prices in Greater Houston — The Woodlands, Conroe, Katy, Sugar Land & all surrounding areas. Authorized Trane dealer. Licensed & insured. Call 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $9,998 fully installed. Call 832-221-3688.",
   keywords: [
     "Trane AC installation Houston",
     "AC replacement Houston TX",
@@ -48,15 +48,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://www.acsupercenter.com",
     siteName: "AC SuperCenter",
-    title: "AC SuperCenter | Guaranteed Lowest Trane Prices in Greater Houston",
+    title: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
     description:
-      "A revolutionary new way to replace your home AC system and save thousands. Authorized Trane dealer serving all of Greater Houston. Call 832-221-3688.",
+      "Complete Trane AC & heating system installations across 18 Greater Houston cities. Guaranteed lowest price. Authorized Trane dealer. Starting at $9,998 fully installed. Call 832-221-3688.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AC SuperCenter | Guaranteed Lowest Trane Prices in Greater Houston",
+    title: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
     description:
-      "Stop overpaying. Guaranteed lowest Trane AC prices in Greater Houston. Call 832-221-3688.",
+      "Guaranteed lowest Trane AC installation prices in Greater Houston. Complete systems starting at $9,998 fully installed. Authorized Trane dealer. Call 832-221-3688.",
   },
   robots: {
     index: true,

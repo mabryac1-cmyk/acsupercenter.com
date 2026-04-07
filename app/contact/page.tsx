@@ -4,9 +4,17 @@ import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us — Get a Free Quote",
+  title: "Get a Free Trane AC Installation Quote | Greater Houston TX",
   description:
-    "Get a free, no-pressure quote on a new Trane AC system for your Greater Houston home. Text us a photo of your unit label or fill out our form. Call 832-221-3688.",
+    "Get a free, no-pressure quote on a new Trane AC & heating system installation in Greater Houston. No in-home visit needed — text a photo of your unit label and we'll call you back fast with a guaranteed price. Call 832-221-3688.",
+  keywords: [
+    "free AC replacement quote Houston TX",
+    "Trane AC quote Houston",
+    "new AC system quote Greater Houston",
+    "HVAC replacement estimate Houston TX",
+    "free HVAC quote Houston",
+    "contact AC SuperCenter",
+  ],
   alternates: {
     canonical: "https://www.acsupercenter.com/contact",
   },
