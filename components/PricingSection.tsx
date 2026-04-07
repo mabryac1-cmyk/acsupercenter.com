@@ -59,14 +59,14 @@ export default function PricingSection() {
               Complete System — Air Conditioning <span className="text-brand-red">+</span> Heater Included
             </h3>
             <p className="text-gray-600 text-sm mt-2 max-w-2xl mx-auto">
-              Every price listed is for a <strong>complete replacement system</strong> — both the
-              outdoor AC/cooling unit <em>and</em> the indoor heater (gas furnace or electric air handler).
+              Every price listed is for a <strong>complete replacement system</strong> — includes the
+              outdoor AC/cooling unit, coil, <em>and</em> the indoor heater (gas furnace or electric air handler).
               Full year-round comfort at one guaranteed price. No surprises. No add-ons.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
             {[
-              "New Outdoor AC Unit",
+              "New Outdoor AC Unit & Coil",
               "New Gas Furnace or Electric Air Handler",
               "Professional Installation",
               "Basic Digital Thermostat",
@@ -202,12 +202,14 @@ export default function PricingSection() {
         {/* Installation disclosure */}
         <div className="mt-8 border-t border-gray-200 pt-6 max-w-4xl mx-auto">
           <p className="text-gray-600 text-xs leading-relaxed text-center">
-            <span className="font-semibold text-gray-700">Installation Disclosure:</span>{" "}
+            <span className="font-semibold text-gray-700">Installation &amp; Pricing Disclosure:</span>{" "}
             New equipment shall be attached to existing plenum, ductwork, refrigerant lines, electrical,
             gas lines, drain lines, and flue pipe as applicable. All new installations also include a
             basic digital thermostat, new emergency drain pan, and safety float switch, as applicable.
             Any additional items may incur an additional charge. Any accessories requested shall be
-            quoted as an additional charge. Trane® is a registered trademark of Trane Technologies.
+            quoted as an additional charge. Prices include all applicable discounts, special offers,
+            coupons, and rebates. No additional price reductions are permitted. Cannot be combined with
+            any manufacturer&apos;s or outside promotional financing offer. Trane® is a registered trademark of Trane Technologies.
           </p>
         </div>
       </div>
