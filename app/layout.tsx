@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: "%s | AC SuperCenter",
   },
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $9,998 fully installed. Call 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $11,995 fully installed. Call 832-221-3688.",
   keywords: [
     "Trane AC installation Houston",
     "AC replacement Houston TX",
@@ -33,8 +33,8 @@ export const metadata: Metadata = {
     "Trane dealer Conroe TX",
     "Trane dealer Pearland TX",
     "Trane dealer Cypress TX",
-    "14 SEER2 AC installation Houston",
-    "15 SEER2 AC Houston TX",
+    "15.2 SEER2 AC installation Houston",
+    "16 SEER2 AC Houston TX",
     "18 SEER2 Trane system Houston",
     "RunTru Trane installation Houston",
     "Trane XR15 installation Houston",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: "AC SuperCenter",
     title: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
     description:
-      "Complete Trane AC & heating system installations across 18 Greater Houston cities. Guaranteed lowest price. Authorized Trane dealer. Starting at $9,998 fully installed. Call 832-221-3688.",
+      "Complete Trane AC & heating system installations across 18 Greater Houston cities. Guaranteed lowest price. Authorized Trane dealer. Starting at $11,995 fully installed. Call 832-221-3688.",
   },
   twitter: {
     card: "summary_large_image",

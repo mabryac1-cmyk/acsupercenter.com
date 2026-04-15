@@ -12,7 +12,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $9,998 fully installed. Call 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $11,995 fully installed. Call 832-221-3688.",
   alternates: {
     canonical: "https://www.acsupercenter.com",
   },
@@ -74,17 +74,17 @@ const schemaData = {
     "@type": "AggregateOffer",
     "name": "Complete Trane HVAC System — Fully Installed",
     "description": "Complete Trane AC and heating system installation. Includes outdoor AC unit & coil, indoor heater (gas furnace or electric air handler), professional installation, thermostat, drain pan, and float switch. All sizes — one price.",
-    "lowPrice": "9998",
-    "highPrice": "16995",
+    "lowPrice": "11995",
+    "highPrice": "18495",
     "priceCurrency": "USD",
     "offerCount": "3",
     "seller": { "@type": "Organization", "name": "AC SuperCenter" },
     "offers": [
       {
         "@type": "Offer",
-        "name": "Value Series — RunTru by Trane (Up to 14 SEER2)",
+        "name": "Value Series — RunTru by Trane (Up to 15.2 SEER2)",
         "description": "Complete system — AC unit & Coil + heater included. Fully installed, all sizes.",
-        "price": "9998",
+        "price": "11995",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "areaServed": "Greater Houston, TX",
@@ -92,9 +92,9 @@ const schemaData = {
       },
       {
         "@type": "Offer",
-        "name": "Performance Series — Trane XR15 (Up to 15 SEER2)",
+        "name": "Performance Series — Trane XR15 (Up to 16 SEER2)",
         "description": "Complete system — AC unit & Coil + heater included. Fully installed, all sizes.",
-        "price": "12995",
+        "price": "14495",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "areaServed": "Greater Houston, TX",
@@ -104,7 +104,7 @@ const schemaData = {
         "@type": "Offer",
         "name": "Comfort Series — Trane 18 TruComfort Series (Up to 18 SEER2)",
         "description": "Complete system — AC unit & Coil + heater included. Fully installed, all sizes.",
-        "price": "16995",
+        "price": "18495",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "areaServed": "Greater Houston, TX",
@@ -121,7 +121,7 @@ const schemaData = {
         "name": "How much does a new Trane AC system cost in Houston?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AC SuperCenter offers complete Trane system installations starting at $9,998 for the Value Series (RunTru by Trane, up to 14 SEER2), $12,995 for the Performance Series (Trane XR15, up to 15 SEER2), and $16,995 for the Comfort Series (Trane 18 TruComfort, up to 18 SEER2). All prices are for complete systems — outdoor AC unit & coil plus indoor heater — fully installed. All sizes at one price."
+          "text": "AC SuperCenter offers complete Trane system installations starting at $11,995 for the Value Series (RunTru by Trane, up to 15.2 SEER2), $14,495 for the Performance Series (Trane XR15, up to 16 SEER2), and $18,495 for the Comfort Series (Trane 18 TruComfort, up to 18 SEER2). All prices are for complete systems — outdoor AC unit & coil plus indoor heater — fully installed. All sizes at one price."
         }
       },
       {

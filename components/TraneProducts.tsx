@@ -1,7 +1,7 @@
 const tiers = [
   {
     name: "Value Series",
-    seer: "Up to 14 SEER2",
+    seer: "Up to 15.2 SEER2",
     color: "bg-slate-50 border-slate-200",
     accentColor: "text-slate-700",
     description:
@@ -11,7 +11,7 @@ const tiers = [
   },
   {
     name: "Performance Series",
-    seer: "Up to 15 SEER2",
+    seer: "Up to 16 SEER2",
     color: "bg-brand-red/5 border-brand-red/20",
     accentColor: "text-brand-red",
     description:
