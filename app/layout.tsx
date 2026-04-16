@@ -72,6 +72,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.acsupercenter.com",
   },
+  verification: {
+    google: "vj2hpXme4AjczS5Kts06FYvLHnF_Kvc5nSc_T5J3XOo",
+  },
 };
 
 export default function RootLayout({
