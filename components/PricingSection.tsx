@@ -163,8 +163,8 @@ export default function PricingSection() {
                       : "bg-navy-900 hover:bg-navy-800 text-white"
                   }`}
                 >
-                  Call to Lock In This Price
-                  <div className="text-xs font-normal opacity-80 mt-0.5">{PHONE}</div>
+                  Call or Text to Lock In This Price
+                  <div className="text-xs font-normal opacity-80 mt-0.5">{PHONE} — Available 24/7</div>
                 </a>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function PricingSection() {
             href={PHONE_HREF}
             className="inline-block mt-3 text-brand-red font-semibold text-sm hover:underline"
           >
-            Call {PHONE} to discuss accessories →
+            Call or Text {PHONE} to discuss accessories →
           </a>
         </div>
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: "%s | AC SuperCenter",
   },
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems in Conroe, The Woodlands & across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $11,995 fully installed. Call 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems in Conroe, The Woodlands & across 18 Greater Houston cities at the guaranteed lowest price. Available 24/7 — text or call anytime. Authorized Trane dealer. Starting at $11,995 fully installed. Call or text 832-221-3688.",
   keywords: [
     "Trane AC installation Conroe TX",
     "Trane AC installation The Woodlands TX",
