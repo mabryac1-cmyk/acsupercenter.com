@@ -71,6 +71,13 @@ export default async function CityPage({
       "postalCode": "77304",
       "addressCountry": "US"
     },
+    ...(city.lat && city.lng ? {
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": city.lat,
+        "longitude": city.lng,
+      }
+    } : {}),
     "areaServed": {
       "@type": "City",
       "name": city.name,
@@ -79,6 +86,20 @@ export default async function CityPage({
     "hasCredential": "TACLB12058E",
     "brand": { "@type": "Brand", "name": "Trane" },
     "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "14:00"
+      }
+    ],
   };
 
   return (
@@ -93,7 +114,7 @@ export default async function CityPage({
         <section className="py-16 lg:py-24" style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 55%, #bae6fd 100%)" }}>
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="inline-flex items-center gap-2 bg-brand-red/10 border border-brand-red/20 text-brand-red px-4 py-1.5 rounded-full text-sm font-semibold mb-6">
-              Serving {city.name}, TX
+              {city.isHomeBase ? `📍 Our Home Base — ${city.name}, TX` : `Serving ${city.name}, TX`}
             </div>
             <h1 className="text-4xl lg:text-5xl font-black text-navy-900 mb-6 text-balance">
               Trane AC Installation in{" "}

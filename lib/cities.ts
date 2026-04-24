@@ -5,6 +5,9 @@ export interface City {
   description: string;
   neighborhoods: string[];
   geoNote: string;
+  lat?: number;
+  lng?: number;
+  isHomeBase?: boolean;
 }
 
 export const cities: City[] = [
@@ -13,16 +16,21 @@ export const cities: City[] = [
     slug: "the-woodlands",
     county: "Montgomery",
     description: "a premier master-planned community north of Houston",
-    neighborhoods: ["Creekside Park", "Sterling Ridge", "Panther Creek", "Cochran's Crossing", "Grogan's Mill", "Indian Springs", "Alden Bridge"],
-    geoNote: "The Woodlands is a large master-planned community with dozens of distinct villages and neighborhoods spread across Montgomery County. Many homes here were built in the 1980s and 1990s and are now due for a full HVAC system replacement — making it one of our most active service areas. We serve every village and subdivision in The Woodlands.",
+    neighborhoods: ["Creekside Park", "Sterling Ridge", "Panther Creek", "Cochran's Crossing", "Grogan's Mill", "Indian Springs", "Alden Bridge", "College Park", "Harpers Landing", "East Shore", "Grogan's Point", "Chateau Woods"],
+    geoNote: "The Woodlands is a large master-planned community with dozens of distinct villages and neighborhoods spread across Montgomery County. AC SuperCenter is headquartered right next door in Conroe — making The Woodlands one of our closest and most active service areas. Many homes here were built in the 1980s and 1990s and are now due for a full HVAC system replacement. We serve every village and subdivision in The Woodlands.",
+    lat: 30.1658,
+    lng: -95.4613,
   },
   {
     name: "Conroe",
     slug: "conroe",
     county: "Montgomery",
     description: "the fast-growing county seat of Montgomery County",
-    neighborhoods: ["Grand Central Park", "Woodforest", "Bentwater", "April Sound", "Panorama Village", "Teaswood"],
-    geoNote: "Conroe is the county seat of Montgomery County and one of the fastest-growing cities in Texas. From established neighborhoods near downtown Conroe to newer master-planned communities like Grand Central Park and Woodforest, we install Trane systems throughout the entire Conroe area.",
+    neighborhoods: ["Grand Central Park", "Woodforest", "Bentwater", "April Sound", "Panorama Village", "Teaswood", "Stewarts Forest", "Longmire", "Granger Pines", "West Fork", "Crighton Ridge"],
+    geoNote: "AC SuperCenter is headquartered right here in Conroe, TX — making this our home market. From established neighborhoods near downtown Conroe to newer master-planned communities like Grand Central Park and Woodforest, we install Trane systems throughout the entire Conroe area. As a local Conroe business, we are invested in this community and proud to offer our neighbors the guaranteed lowest Trane prices in Montgomery County.",
+    lat: 30.3119,
+    lng: -95.4561,
+    isHomeBase: true,
   },
   {
     name: "Katy",
