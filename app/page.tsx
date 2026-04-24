@@ -10,9 +10,9 @@ import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Trane AC Installation Houston TX | Lowest Price Guaranteed | AC SuperCenter",
+  title: "Trane AC Installation Conroe & The Woodlands TX | Lowest Price Guaranteed | AC SuperCenter",
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $11,995 fully installed. Call 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems in Conroe, The Woodlands & across 18 Greater Houston cities at the guaranteed lowest price. Authorized Trane dealer. No in-home visit needed. Starting at $11,995 fully installed. Call 832-221-3688.",
   alternates: {
     canonical: "https://www.acsupercenter.com",
   },
@@ -26,7 +26,7 @@ const schemaData = {
     "alternateName": "ACSuperCenter.com",
     "url": "https://www.acsupercenter.com",
     "telephone": "+18322213688",
-    "description": "AC SuperCenter installs new Trane AC and heating systems across Greater Houston at the guaranteed lowest price. Authorized Trane dealer. Install-only specialist serving 18 cities.",
+    "description": "AC SuperCenter installs new Trane AC and heating systems in Conroe, The Woodlands, and across Greater Houston at the guaranteed lowest price. Authorized Trane dealer. Install-only specialist serving 18 cities.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "4848 W Fork Blvd",
@@ -41,11 +41,11 @@ const schemaData = {
       "longitude": -95.5630
     },
     "areaServed": [
-      "The Woodlands, TX", "Conroe, TX", "Katy, TX", "Sugar Land, TX",
-      "Pearland, TX", "League City, TX", "Friendswood, TX", "Spring, TX",
-      "Humble, TX", "Cypress, TX", "Tomball, TX", "Kingwood, TX",
-      "Baytown, TX", "Pasadena, TX", "Missouri City, TX", "Stafford, TX",
-      "Rosenberg, TX", "Richmond, TX"
+      "Conroe, TX", "The Woodlands, TX", "Shenandoah, TX", "Spring, TX",
+      "Tomball, TX", "Cypress, TX", "Katy, TX", "Sugar Land, TX",
+      "Pearland, TX", "League City, TX", "Friendswood, TX", "Humble, TX",
+      "Kingwood, TX", "Baytown, TX", "Pasadena, TX", "Missouri City, TX",
+      "Stafford, TX", "Rosenberg, TX", "Richmond, TX"
     ],
     "priceRange": "$$",
     "brand": { "@type": "Brand", "name": "Trane" },

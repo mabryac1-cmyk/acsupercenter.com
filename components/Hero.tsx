@@ -26,7 +26,7 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 leading-tight mb-6 text-balance">
             Trane® AC & Heating System{" "}
-            <span className="text-brand-red">Installation in Greater Houston</span>{" "}
+            <span className="text-brand-red">Installation in Conroe, The Woodlands & Greater Houston</span>{" "}
             — Guaranteed Lowest Price.
           </h1>
 
@@ -73,7 +73,7 @@ export default function Hero() {
               { icon: "✓", label: "Authorized Trane Dealer" },
               { icon: "✓", label: "License #TACLB12058E" },
               { icon: "✓", label: "Licensed & Insured" },
-              { icon: "✓", label: "All of Greater Houston" },
+              { icon: "✓", label: "Conroe & The Woodlands Area" },
               { icon: "✓", label: "Lowest Price Guaranteed" },
             ].map((badge) => (
               <div
