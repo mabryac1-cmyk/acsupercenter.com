@@ -16,7 +16,7 @@ export const systems: TraneSystem[] = [
     subtitle: "RunTru by Trane",
     tagline: "Reliable Comfort at an Unbeatable Price",
     seer: "Up to 15.2 SEER2",
-    price: "$11,995",
+    price: "$11,495",
     priceNote: "All Sizes — Fully Installed",
     badge: "Best Value",
     highlights: [
@@ -32,7 +32,7 @@ export const systems: TraneSystem[] = [
     subtitle: "Trane XR15",
     tagline: "More Efficiency. More Savings. More Comfort.",
     seer: "Up to 16 SEER2",
-    price: "$14,495",
+    price: "$13,995",
     priceNote: "All Sizes — Fully Installed",
     badge: "Most Popular",
     popular: true,
@@ -50,7 +50,7 @@ export const systems: TraneSystem[] = [
     subtitle: "Trane 18 TruComfort Series",
     tagline: "The Ultimate in Home Comfort & Efficiency",
     seer: "Up to 18 SEER2",
-    price: "$18,495",
+    price: "$17,995",
     priceNote: "All Sizes — Fully Installed",
     badge: "Top of the Line",
     highlights: [
