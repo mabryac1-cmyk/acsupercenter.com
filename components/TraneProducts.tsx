@@ -16,12 +16,12 @@ const tiers = [
     accentColor: "text-brand-red",
     description:
       "The sweet spot of efficiency and value. Delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance at a price that will make you say WOW.",
-    models: ["Trane XR15"],
+    models: ["Trane XR16"],
     bestFor: "Homeowners who want higher efficiency and a noticeably more comfortable home",
     popular: true,
   },
   {
-    name: "Comfort Series",
+    name: "TruComfort Series",
     seer: "Up to 18 SEER2",
     color: "bg-navy-600/5 border-navy-600/20",
     accentColor: "text-navy-600",
@@ -47,7 +47,7 @@ export default function TraneProducts() {
           <p className="text-gray-600 text-lg leading-relaxed">
             Trane® is one of the most trusted names in home comfort. We install{" "}
             <strong>all Trane product lines</strong> — from the reliable Value Series
-            to the premium Comfort Series. Not sure which is right for you? Just call
+            to the premium TruComfort Series. Not sure which is right for you? Just call
             — we'll help you choose the best system for your home and budget.
           </p>
         </div>

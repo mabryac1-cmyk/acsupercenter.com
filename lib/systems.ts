@@ -1,5 +1,5 @@
 export interface TraneSystem {
-  tier: "Value" | "Performance" | "Comfort";
+  tier: "Value" | "Performance" | "TruComfort";
   subtitle: string;
   tagline: string;
   seer: string;
@@ -16,7 +16,7 @@ export const systems: TraneSystem[] = [
     subtitle: "RunTru by Trane",
     tagline: "Reliable Comfort at an Unbeatable Price",
     seer: "Up to 15.2 SEER2",
-    price: "$11,495",
+    price: "$12,645",
     priceNote: "All Sizes — Fully Installed",
     badge: "Best Value",
     highlights: [
@@ -29,10 +29,10 @@ export const systems: TraneSystem[] = [
   },
   {
     tier: "Performance",
-    subtitle: "Trane XR15",
+    subtitle: "Trane XR16",
     tagline: "More Efficiency. More Savings. More Comfort.",
     seer: "Up to 16 SEER2",
-    price: "$13,995",
+    price: "$15,395",
     priceNote: "All Sizes — Fully Installed",
     badge: "Most Popular",
     popular: true,
@@ -46,11 +46,11 @@ export const systems: TraneSystem[] = [
     ],
   },
   {
-    tier: "Comfort",
+    tier: "TruComfort",
     subtitle: "Trane 18 TruComfort Series",
     tagline: "The Ultimate in Home Comfort & Efficiency",
     seer: "Up to 18 SEER2",
-    price: "$17,995",
+    price: "$19,795",
     priceNote: "All Sizes — Fully Installed",
     badge: "Top of the Line",
     highlights: [

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "16 SEER2 AC Houston TX",
     "18 SEER2 Trane system Houston",
     "RunTru Trane installation Houston",
-    "Trane XR15 installation Houston",
+    "Trane XR16 installation Houston",
     "Trane TruComfort installation Houston",
     "Trane dealer Katy TX",
     "Trane dealer Cypress TX",
