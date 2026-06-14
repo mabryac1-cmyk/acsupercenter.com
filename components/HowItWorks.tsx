@@ -6,8 +6,8 @@ const steps = [
     number: "01",
     title: "Snap a Photo of Your Unit Label",
     description:
-      "Find the model and serial number label on your existing outdoor condenser and indoor air handler. Snap a quick photo with your phone — it usually takes less than 2 minutes. This gives us everything we need for an accurate, no-surprise quote.",
-    tip: "The label is typically on the side of the outdoor unit and inside the door panel of the indoor air handler.",
+      "Find the model and serial number label on your existing outdoor AC unit. Snap a quick photo with your phone — it usually takes less than a minute. That's all we need for an accurate, no-surprise quote.",
+    tip: "The label is typically on the side of the outdoor unit. If you can also grab a quick picture of your indoor unit, that's a bonus — but it's not required.",
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />

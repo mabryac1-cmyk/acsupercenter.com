@@ -83,13 +83,13 @@ export default function ContactPage() {
                       <div className="font-bold text-blue-900 mb-1">Pro Tip: Snap a Photo</div>
                       <p className="text-blue-800 text-sm leading-relaxed">
                         Take a quick photo of the model/serial number label on your existing
-                        outdoor AC unit and indoor air handler. Text them to{" "}
+                        outdoor AC unit. Text it to{" "}
                         <a href={PHONE_HREF} className="font-semibold underline">{PHONE}</a>{" "}
                         and we'll use that to give you a precise, accurate quote — often in the
                         same day.
                       </p>
                       <p className="text-blue-700 text-xs mt-2 font-medium">
-                        The label is usually on the side of the outdoor unit and inside the panel of the indoor air handler.
+                        The label is usually on the side of the outdoor unit. Bonus (optional): if you can easily snap a picture of your indoor unit too, that helps — but it's not required.
                       </p>
                     </div>
                   </div>
