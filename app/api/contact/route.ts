@@ -5,7 +5,15 @@ export async function POST(request: Request) {
   const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body = await request.json();
-    const { name, phone, email, city, systemInfo, message } = body;
+    const { name, phone, email, city, systemInfo, message, company } = body;
+
+    // Honeypot: real users never see or fill the hidden `company` field. If it has
+    // anything in it, the submission is a bot. Return success so the bot thinks it
+    // worked and doesn't retry, but skip sending the email.
+    if (typeof company === "string" && company.trim() !== "") {
+      console.log("Honeypot triggered — spam blocked");
+      return NextResponse.json({ success: true });
+    }
 
     if (!name || !phone || !email) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });

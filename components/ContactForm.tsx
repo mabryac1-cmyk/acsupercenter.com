@@ -13,6 +13,7 @@ export default function ContactForm() {
     city: "",
     systemInfo: "",
     message: "",
+    company: "",
   });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
@@ -31,7 +32,7 @@ export default function ContactForm() {
       });
       if (!res.ok) throw new Error("Failed");
       setStatus("success");
-      setForm({ name: "", phone: "", email: "", city: "", systemInfo: "", message: "" });
+      setForm({ name: "", phone: "", email: "", city: "", systemInfo: "", message: "", company: "" });
     } catch {
       setStatus("error");
     }
@@ -61,6 +62,23 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      {/* Honeypot — hidden from humans, filled by spam bots. Submissions with this filled are silently dropped server-side. */}
+      <div
+        aria-hidden="true"
+        style={{ position: "absolute", left: "-9999px", top: "-9999px", height: 0, width: 0, overflow: "hidden" }}
+      >
+        <label htmlFor="company">Company (leave blank)</label>
+        <input
+          id="company"
+          name="company"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          value={form.company}
+          onChange={handleChange}
+        />
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
           <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-1.5">
