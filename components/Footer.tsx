@@ -33,7 +33,7 @@ export default function Footer() {
               </svg>
               Call or Text: {PHONE}
             </a>
-            <p className="text-sky-300 text-xs mt-2">Available 24/7 — Text or Call Anytime</p>
+            <p className="text-sky-300 text-xs mt-2">Call 7 to 7 Daily · Text Anytime</p>
           </div>
 
           {/* Quick Links */}

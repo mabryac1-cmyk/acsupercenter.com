@@ -12,7 +12,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Trane AC Installation Conroe & The Woodlands TX | Lowest Price Guaranteed | AC SuperCenter",
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems in Conroe, The Woodlands & across 18 Greater Houston cities at the guaranteed lowest price. Available 24/7 — text or call anytime. Authorized Trane dealer. Starting at $11,995 fully installed. Call or text 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems for the Greater Houston Area — from Conroe & The Woodlands to Deer Park & Sugar Land, and all areas in between — at the guaranteed lowest prices. Call 7 to 7 daily, text anytime. Authorized Trane dealer. Starting at $12,645 fully installed. Call or text 832-221-3688.",
   alternates: {
     canonical: "https://www.acsupercenter.com",
   },

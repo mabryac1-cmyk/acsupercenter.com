@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: "%s | AC SuperCenter",
   },
   description:
-    "AC SuperCenter installs complete Trane AC & heating systems in Conroe, The Woodlands & across 18 Greater Houston cities at the guaranteed lowest price. Available 24/7 — text or call anytime. Authorized Trane dealer. Starting at $11,995 fully installed. Call or text 832-221-3688.",
+    "AC SuperCenter installs complete Trane AC & heating systems for the Greater Houston Area — from Conroe & The Woodlands to Deer Park & Sugar Land, and all areas in between — at the guaranteed lowest prices. Call 7 to 7 daily, text anytime. Authorized Trane dealer. Starting at $12,645 fully installed. Call or text 832-221-3688.",
   keywords: [
     "Trane AC installation Conroe TX",
     "Trane AC installation The Woodlands TX",
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
     siteName: "AC SuperCenter",
     title: "Trane AC Installation Conroe & The Woodlands TX | Lowest Price Guaranteed | AC SuperCenter",
     description:
-      "Complete Trane AC & heating system installations in Conroe, The Woodlands & across 18 Greater Houston cities. Guaranteed lowest price. Authorized Trane dealer. Starting at $11,995 fully installed. Call 832-221-3688.",
+      "Complete Trane AC & heating system installations for the Greater Houston Area — from Conroe & The Woodlands to Deer Park & Sugar Land. Guaranteed lowest prices. Authorized Trane dealer. Starting at $12,645 fully installed. Call 832-221-3688.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Trane AC Installation Conroe & The Woodlands TX | Lowest Price Guaranteed | AC SuperCenter",
     description:
-      "Guaranteed lowest Trane AC installation prices in Greater Houston. Complete systems starting at $9,998 fully installed. Authorized Trane dealer. Call 832-221-3688.",
+      "Guaranteed lowest Trane AC installation prices in Greater Houston. Complete systems starting at $12,645 fully installed. Authorized Trane dealer. Call 832-221-3688.",
   },
   robots: {
     index: true,

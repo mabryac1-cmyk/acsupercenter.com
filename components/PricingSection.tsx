@@ -164,7 +164,7 @@ export default function PricingSection() {
                   }`}
                 >
                   Call or Text to Lock In This Price
-                  <div className="text-xs font-normal opacity-80 mt-0.5">{PHONE} — Available 24/7</div>
+                  <div className="text-xs font-normal opacity-80 mt-0.5">{PHONE} — 7 to 7 Daily</div>
                 </a>
               </div>
             </div>

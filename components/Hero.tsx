@@ -26,8 +26,9 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-navy-900 leading-tight mb-6 text-balance">
             Trane® AC & Heating System{" "}
-            <span className="text-brand-red">Installation in Conroe, The Woodlands & Greater Houston</span>{" "}
-            — Guaranteed Lowest Price.
+            <span className="text-brand-red">Installation for the Greater Houston Area</span>{" "}
+            — From Conroe & The Woodlands to Deer Park & Sugar Land, and all areas in between.{" "}
+            <span className="text-brand-red">Guaranteed Lowest Prices.</span>
           </h1>
 
           {/* Subheadline */}
@@ -43,7 +44,7 @@ export default function Hero() {
             Trane installation — saving you potentially thousands over traditional
             HVAC companies. Our dramatically reduced overhead means we pass the
             savings directly to you.{" "}
-            <strong className="text-navy-800">Available 24/7 — Text or Call Anytime.</strong>
+            <strong className="text-navy-800">Call 7 to 7 Daily · Text Anytime.</strong>
           </p>
 
           {/* CTAs */}
@@ -75,7 +76,7 @@ export default function Hero() {
               { icon: "✓", label: "License #TACLB12058E" },
               { icon: "✓", label: "Licensed & Insured" },
               { icon: "✓", label: "Conroe & The Woodlands Area" },
-              { icon: "✓", label: "Available 24/7 — Text or Call Anytime" },
+              { icon: "✓", label: "Call 7 to 7 Daily · Text Anytime" },
               { icon: "✓", label: "Lowest Price Guaranteed" },
             ].map((badge) => (
               <div
