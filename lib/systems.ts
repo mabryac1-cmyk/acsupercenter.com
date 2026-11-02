@@ -32,7 +32,7 @@ export const systems: TraneSystem[] = [
     subtitle: "Trane 16 Single-Stage",
     tagline: "Trusted Trane Reliability for Everyday Comfort",
     seer: "Up to 16 SEER2",
-    price: "$14,744",
+    price: "$13,879",
     priceNote: "All Sizes — Fully Installed",
     badge: "Most Popular",
     popular: true,
@@ -49,7 +49,7 @@ export const systems: TraneSystem[] = [
     subtitle: "Trane 17 Multi-Speed",
     tagline: "More Efficiency. More Savings. More Comfort.",
     seer: "Up to 17 SEER2",
-    price: "$15,859",
+    price: "$14,859",
     priceNote: "All Sizes — Fully Installed",
     badge: "Smart Upgrade",
     highlights: [
@@ -67,7 +67,7 @@ export const systems: TraneSystem[] = [
     subtitle: "Trane 18 TruComfort Series",
     tagline: "The Ultimate in Home Comfort & Efficiency",
     seer: "Up to 18 SEER2",
-    price: "$18,687",
+    price: "$17,689",
     priceNote: "All Sizes — Fully Installed",
     badge: "Top of the Line",
     highlights: [
