@@ -5,29 +5,39 @@ const tiers = [
     color: "bg-slate-50 border-slate-200",
     accentColor: "text-slate-700",
     description:
-      "Trane's entry-level series delivers the reliability and build quality the brand is known for — at the most accessible price point. A major upgrade from any aging system.",
+      "Trane's entry-level sub-brand delivers the reliability and build quality the brand is known for — at the most accessible price point. A major upgrade from any aging system.",
     models: ["RunTru by Trane"],
     bestFor: "Budget-conscious homeowners who want Trane® quality at the guaranteed lowest cost",
   },
   {
-    name: "Performance Series",
+    name: "Choice Series",
     seer: "Up to 16 SEER2",
+    color: "bg-sky-50 border-sky-200",
+    accentColor: "text-sky-700",
+    description:
+      "Trane's entry-level single-stage line. Reliable, straightforward cooling with Trane's trusted build quality — a smart step up from any aging system.",
+    models: ["Trane 16 Single-Stage"],
+    bestFor: "Homeowners who want authentic Trane reliability at an accessible price",
+  },
+  {
+    name: "Priority Series",
+    seer: "Up to 17 SEER2",
     color: "bg-brand-red/5 border-brand-red/20",
     accentColor: "text-brand-red",
     description:
-      "The sweet spot of efficiency and value. Delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance at a price that will make you say WOW.",
-    models: ["Trane XR16"],
+      "The sweet spot of efficiency and value. Multi-speed inverter technology delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance.",
+    models: ["Trane 17 Multi-Speed"],
     bestFor: "Homeowners who want higher efficiency and a noticeably more comfortable home",
     popular: true,
   },
   {
-    name: "TruComfort Series",
+    name: "Premier Series",
     seer: "Up to 18 SEER2",
     color: "bg-navy-600/5 border-navy-600/20",
     accentColor: "text-navy-600",
     description:
-      "Trane's premium TruComfort line. Variable-speed technology delivers whisper-quiet operation, precise temperature control, and the absolute lowest energy bills — the pinnacle of home comfort.",
-    models: ["TruComfort 18"],
+      "Trane's flagship TruComfort line. Variable-speed technology delivers whisper-quiet operation, precise temperature control, and the absolute lowest energy bills — the pinnacle of home comfort.",
+    models: ["Trane 18 TruComfort"],
     bestFor: "Homeowners who want the best of the best — maximum efficiency, maximum comfort",
   },
 ];
@@ -47,16 +57,16 @@ export default function TraneProducts() {
           <p className="text-gray-600 text-lg leading-relaxed">
             Trane® is one of the most trusted names in home comfort. We install{" "}
             <strong>all Trane product lines</strong> — from the reliable Value Series
-            to the premium TruComfort Series. Not sure which is right for you? Just call
+            to the flagship Premier Series. Not sure which is right for you? Just call
             — we'll help you choose the best system for your home and budget.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {tiers.map((tier) => (
             <div
               key={tier.name}
-              className={`relative rounded-2xl border-2 p-8 ${tier.color} ${
+              className={`relative rounded-2xl border-2 p-6 ${tier.color} ${
                 tier.popular ? "shadow-xl" : "shadow-sm"
               }`}
             >
