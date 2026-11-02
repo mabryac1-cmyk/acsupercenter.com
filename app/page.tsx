@@ -44,7 +44,7 @@ const schemaData = {
       "Conroe, TX", "The Woodlands, TX", "Shenandoah, TX", "Spring, TX",
       "Tomball, TX", "Cypress, TX", "Katy, TX", "Sugar Land, TX",
       "Pearland, TX", "League City, TX", "Friendswood, TX", "Humble, TX",
-      "Kingwood, TX", "Baytown, TX", "Pasadena, TX", "Missouri City, TX",
+      "Kingwood, TX", "Deer Park, TX", "Pasadena, TX", "Missouri City, TX",
       "Stafford, TX", "Rosenberg, TX", "Richmond, TX"
     ],
     "priceRange": "$$",
@@ -141,7 +141,7 @@ const schemaData = {
         "name": "What cities in Houston does AC SuperCenter serve?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "AC SuperCenter serves all of Greater Houston including The Woodlands, Conroe, Katy, Sugar Land, Pearland, League City, Friendswood, Spring, Humble, Cypress, Tomball, Kingwood, Baytown, Pasadena, Missouri City, Stafford, Rosenberg, and Richmond, TX."
+          "text": "AC SuperCenter serves all of Greater Houston including The Woodlands, Conroe, Katy, Sugar Land, Pearland, League City, Friendswood, Spring, Humble, Cypress, Tomball, Kingwood, Deer Park, Pasadena, Missouri City, Stafford, Rosenberg, and Richmond, TX."
         }
       },
       {

@@ -113,12 +113,12 @@ export const cities: City[] = [
     geoNote: "Kingwood — known as the 'Livable Forest' — is a large master-planned community northeast of Houston along the US-59 corridor. Many Kingwood homes were built in the 1970s and 1980s, making full HVAC system replacement a common need throughout its many villages. We serve all Kingwood neighborhoods with our guaranteed lowest Trane prices.",
   },
   {
-    name: "Baytown",
-    slug: "baytown",
+    name: "Deer Park",
+    slug: "deer-park",
     county: "Harris",
-    description: "a major city east of Houston on Galveston Bay",
-    neighborhoods: ["Goose Creek", "Rollingbrook", "San Jacinto", "Sterling Green", "West Baytown", "Chaparral Village"],
-    geoNote: "Baytown is a substantial city east of Houston along I-10 and Hwy 146, situated on the shores of Galveston Bay. The humid, coastal climate in Baytown puts extra demand on air conditioning and heating systems, making reliable Trane equipment especially valuable here. We serve all Baytown neighborhoods with full system replacements at guaranteed lowest prices.",
+    description: "an established community east of Houston along Hwy 225",
+    neighborhoods: ["Deer Park South", "Battlegrounds area", "Park Meadow", "Spencer Highway corridor", "Center Street area", "San Jacinto Elementary area"],
+    geoNote: "Deer Park is a well-established community in eastern Harris County, located between Pasadena and La Porte along Hwy 225. With a stable residential base and many homes built in the 1960s through 1980s, Deer Park homeowners frequently need full HVAC system replacements. We serve all Deer Park neighborhoods with our guaranteed lowest Trane prices.",
   },
   {
     name: "Pasadena",

@@ -15,7 +15,7 @@ export default function ServiceAreas() {
           </h2>
           <p className="text-sky-100 text-lg leading-relaxed">
             As an install-only company, we're able to serve the entire Houston
-            metropolitan area — from The Woodlands to Sugar Land, Katy to Baytown,
+            metropolitan area — from The Woodlands to Sugar Land, Katy to Deer Park,
             and everywhere in between. If you're in the Greater Houston area, we
             can get you a new Trane system at the guaranteed lowest price.
           </p>
