@@ -118,7 +118,7 @@ export default async function CityPage({
             <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mb-8">
               AC SuperCenter serves {city.name} — {city.description} — with
               guaranteed lowest Trane AC and heating system installations. As an
-              authorized Trane dealer with nearly 40 years of Houston HVAC experience,
+              authorized Trane dealer with 40 years of Houston HVAC experience,
               we deliver unmatched quality at prices no competitor can touch.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

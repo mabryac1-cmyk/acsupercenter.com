@@ -75,7 +75,7 @@ export default function Hero() {
               { icon: "✓", label: "Authorized Trane Dealer" },
               { icon: "✓", label: "License #TACLB12058E" },
               { icon: "✓", label: "Licensed & Insured" },
-              { icon: "✓", label: "Conroe & The Woodlands Area" },
+              { icon: "✓", label: "40 Years of HVAC Experience" },
               { icon: "✓", label: "Call 7 to 7 Daily · Text Anytime" },
               { icon: "✓", label: "Lowest Price Guaranteed" },
             ].map((badge) => (

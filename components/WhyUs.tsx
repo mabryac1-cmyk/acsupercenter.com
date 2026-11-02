@@ -50,9 +50,9 @@ const reasons = [
     ),
   },
   {
-    title: "39 Years of Houston HVAC Experience",
+    title: "40 Years of Houston HVAC Experience",
     description:
-      "Behind AC SuperCenter is nearly four decades of HVAC expertise serving the Greater Houston area. We know these systems, this climate, and what it takes to install them right — the first time.",
+      "Behind AC SuperCenter is four decades of HVAC expertise serving the Greater Houston area. We know these systems, this climate, and what it takes to install them right — the first time.",
     icon: (
       <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
