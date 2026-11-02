@@ -12,23 +12,23 @@ const tiers = [
   {
     name: "Choice Series",
     seer: "Up to 16 SEER2",
-    color: "bg-sky-50 border-sky-200",
-    accentColor: "text-sky-700",
+    color: "bg-brand-red/5 border-brand-red/20",
+    accentColor: "text-brand-red",
     description:
       "Trane's entry-level single-stage line. Reliable, straightforward cooling with Trane's trusted build quality — a smart step up from any aging system.",
     models: ["Trane 16 Single-Stage"],
     bestFor: "Homeowners who want authentic Trane reliability at an accessible price",
+    popular: true,
   },
   {
     name: "Priority Series",
     seer: "Up to 17 SEER2",
-    color: "bg-brand-red/5 border-brand-red/20",
-    accentColor: "text-brand-red",
+    color: "bg-sky-50 border-sky-200",
+    accentColor: "text-sky-700",
     description:
       "The sweet spot of efficiency and value. Multi-speed inverter technology delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance.",
     models: ["Trane 17 Multi-Speed"],
     bestFor: "Homeowners who want higher efficiency and a noticeably more comfortable home",
-    popular: true,
   },
   {
     name: "Premier Series",

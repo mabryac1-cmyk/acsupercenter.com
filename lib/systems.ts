@@ -34,7 +34,8 @@ export const systems: TraneSystem[] = [
     seer: "Up to 16 SEER2",
     price: "$14,744",
     priceNote: "All Sizes — Fully Installed",
-    badge: "Smart Choice",
+    badge: "Most Popular",
+    popular: true,
     highlights: [
       "Complete system — AC unit & Coil + heater included",
       "Trusted Trane single-stage reliability",
@@ -50,8 +51,7 @@ export const systems: TraneSystem[] = [
     seer: "Up to 17 SEER2",
     price: "$15,859",
     priceNote: "All Sizes — Fully Installed",
-    badge: "Most Popular",
-    popular: true,
+    badge: "Smart Upgrade",
     highlights: [
       "Complete system — AC unit & Coil + heater included",
       "Multi-speed inverter technology",
