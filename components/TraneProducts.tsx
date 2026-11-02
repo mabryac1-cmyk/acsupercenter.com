@@ -26,7 +26,7 @@ const tiers = [
     color: "bg-sky-50 border-sky-200",
     accentColor: "text-sky-700",
     description:
-      "The sweet spot of efficiency and value. Multi-speed inverter technology delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance.",
+      "The sweet spot of efficiency and value. Multi-Two-Speed technology delivers meaningful energy savings, quieter operation, and lower monthly utility bills — outstanding Trane performance.",
     models: ["Trane 17 Multi-Speed"],
     bestFor: "Homeowners who want higher efficiency and a noticeably more comfortable home",
   },

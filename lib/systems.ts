@@ -54,7 +54,7 @@ export const systems: TraneSystem[] = [
     badge: "Smart Upgrade",
     highlights: [
       "Complete system — AC unit & Coil + heater included",
-      "Multi-speed inverter technology",
+      "Multi-Two-Speed technology",
       "Higher efficiency = lower monthly bills",
       "Legendary Trane Quality & Endurance",
       "Quieter operation than single-stage systems",
